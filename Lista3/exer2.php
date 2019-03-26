@@ -12,8 +12,8 @@
              Informe o 2° valor: <input type="text" name="numero2"><br>
              Informe o 3° valor: <input type="text" name="numero3"><br>
              Informe o 4° valor: <input type="text" name="numero4"><br>
-             Informe o 5° valor: <input type="text" name="numero5"><br><br
-             <button type="submit" >Enviar</button><br>
+             Informe o 5° valor: <input type="text" name="numero5"><br><br>
+             <button type=”submit”>enviar</button><br>
         </form>
         
     </body>

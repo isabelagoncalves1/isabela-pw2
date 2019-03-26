@@ -38,11 +38,25 @@
         <br><br>
             
         <?php
-            echo "Números ímpares:";?><br><br>
+            echo "Multiplos de 3";?><br><br>
             
             <?php
             for($i=0;$i<=4;$i++){    
-                 if($vetor[$i] % 2 == 1){
+                 if($vetor[$i] % 3 == 0){
+                 echo $vetor[$i];
+                 echo"<br>";
+                }
+            }
+        ?>
+        <br><br>
+            
+        <?php
+            
+            echo "Multiplos de 5";?><br><br>
+            
+            <?php
+            for($i=0;$i<=4;$i++){    
+                 if($vetor[$i] % 5 == 0){
                  echo $vetor[$i];
                  echo"<br>";
                 }
